@@ -1,0 +1,77 @@
+{
+ "id": "holo-16",
+ "name": "Studio pose 16",
+ "kind": "uvmap",
+ "width": 1792,
+ "height": 2400,
+ "refWidthPx": 960,
+ "refBorder": [
+  64,
+  59
+ ],
+ "shadingRange": [
+  0.25,
+  1.6
+ ],
+ "assets": {
+  "mannequin": "mannequin.webp",
+  "shading": "shading.webp",
+  "panels": "panels.png",
+  "uv": "uv.png"
+ },
+ "uv": {
+  "sareeWidthPx": 1408.6,
+  "pxPerMetre": 1280.6,
+  "palluAt": "max"
+ },
+ "panels": [
+  {
+   "id": "region1",
+   "index": 0,
+   "role": "pallu",
+   "uSpan": 1548.63,
+   "vSpan": 573.12,
+   "areaPct": 44.9
+  },
+  {
+   "id": "region2",
+   "index": 1,
+   "role": "tail",
+   "uSpan": 1438.76,
+   "vSpan": 378.58,
+   "areaPct": 28.6
+  },
+  {
+   "id": "region3",
+   "index": 2,
+   "role": "body",
+   "uSpan": 863.62,
+   "vSpan": 256.17,
+   "areaPct": 10.2
+  },
+  {
+   "id": "region4",
+   "index": 3,
+   "role": "body",
+   "uSpan": 1519.11,
+   "vSpan": 184.68,
+   "areaPct": 9.4
+  },
+  {
+   "id": "region5",
+   "index": 4,
+   "role": "body",
+   "uSpan": 682.16,
+   "vSpan": 189.84,
+   "areaPct": 6.9
+  }
+ ],
+ "source": {
+  "plate": "clean-Gemini_Generated_Image_nri508nri508nri5.png",
+  "foldCoherence": 0.948,
+  "drapePctOfFigure": 97.2,
+  "neckCutY": 417,
+  "occludingEdges": 6,
+  "regions": 5
+ }
+}

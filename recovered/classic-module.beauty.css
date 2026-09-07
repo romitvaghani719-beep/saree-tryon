@@ -1,0 +1,260 @@
+@font-face {
+  font-family: ComicZ;
+  src: url(/fonts/comicz.ttf) format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+.godot-root {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  background: #000;
+  font-family:
+    ComicZ,
+    Comic Sans MS,
+    Comic Sans,
+    cursive;
+  font-weight: 700;
+  font-style: italic;
+  -webkit-font-smoothing: antialiased;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.godot-stage {
+  left: 0;
+  top: 0;
+  width: 1920px;
+  height: 1080px;
+  transform-origin: 0 0;
+  overflow: hidden;
+  background: #fee8db;
+}
+.abs,
+.godot-stage {
+  position: absolute;
+}
+.frame {
+  left: 0;
+  top: 0;
+  width: 1920px;
+  height: 1080px;
+  border: 6px solid #ba6526;
+  background: #fee8db;
+  pointer-events: none;
+}
+.pill {
+  width: 303px;
+  height: 58px;
+  background: #f9b987;
+  border-radius: 50px;
+}
+.title {
+  height: 58px;
+  font-size: 41px;
+  line-height: 58px;
+}
+.param,
+.title {
+  width: 230px;
+  color: #000;
+  white-space: nowrap;
+  pointer-events: none;
+}
+.param {
+  height: 38px;
+  font-size: 25px;
+  line-height: 38px;
+}
+.thumb {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  display: block;
+}
+.thumb-shadow {
+  background: #ffb784;
+  border: 1px solid #000;
+}
+.thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.outline {
+  display: block;
+  pointer-events: none;
+}
+.viewport {
+  left: 650.6px;
+  top: 101.3px;
+  width: 742.77px;
+  height: 967.68px;
+  background: #fff;
+}
+.viewport canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.hslider {
+  cursor: pointer;
+}
+.hslider .track {
+  right: 0;
+  background: rgba(26, 26, 26, 0.6);
+}
+.hslider .fill,
+.hslider .track {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 8px;
+  margin-top: -4px;
+  border-radius: 4px;
+}
+.hslider .fill {
+  background: rgba(255, 255, 255, 0.4);
+}
+.hslider .grabber {
+  position: absolute;
+  top: 50%;
+  width: 16px;
+  height: 16px;
+  margin-top: -8px;
+  border-radius: 50%;
+  background: #e8e7e6;
+}
+.scroll {
+  left: 1408px;
+  top: 166px;
+  width: 433px;
+  height: 793px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(60, 60, 60, 0.75) rgba(26, 26, 26, 0.25);
+}
+.scroll::-webkit-scrollbar {
+  width: 12px;
+}
+.scroll::-webkit-scrollbar-track {
+  background: rgba(26, 26, 26, 0.25);
+  border-radius: 6px;
+}
+.scroll::-webkit-scrollbar-thumb {
+  background: rgba(60, 60, 60, 0.75);
+  border-radius: 6px;
+}
+.scroll-inner {
+  position: relative;
+}
+.btn {
+  width: 195px;
+  height: 59px;
+  border: 0;
+  border-radius: 20px;
+  background: #ffb784;
+  box-shadow: 0 3.465px 3px rgba(92, 92, 92, 0.455);
+  font: inherit;
+  font-size: 28px;
+  color: #dfdfdf;
+  -webkit-text-stroke: 6px #000;
+  paint-order: stroke fill;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.btn:active {
+  background: #f2a870;
+}
+.btn.small {
+  width: 160px;
+  height: 44px;
+  font-size: 24px;
+}
+.upload {
+  left: 279px;
+  top: 565px;
+  font-size: 22px;
+}
+.rotate {
+  left: 449px;
+  top: 565px;
+}
+.save {
+  left: 279px;
+  top: 619px;
+}
+.btn.small.save {
+  width: 330px;
+}
+.photo {
+  left: 279px;
+  top: 450px;
+  width: 361px;
+  height: 110px;
+  font-size: 19px;
+  line-height: 26px;
+  color: #000;
+  font-style: italic;
+  font-weight: 700;
+}
+.photo .check {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 30px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.photo .check input {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  accent-color: #ba6526;
+}
+.photo .nudge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 30px;
+}
+.photo .nudge input {
+  flex: 1 1;
+  accent-color: #ba6526;
+  margin: 0;
+}
+.photo .nudge .val {
+  width: 62px;
+  text-align: right;
+}
+.photo .note {
+  font-size: 15px;
+  line-height: 18px;
+  height: 54px;
+  overflow: hidden;
+  color: #3a2a20;
+}
+.photo .busy {
+  color: #8a3f10;
+}
+.thumb {
+  overflow: hidden;
+  position: relative;
+}
+.status {
+  position: fixed;
+  left: 8px;
+  bottom: 6px;
+  font:
+    12px/1.4 ui-monospace,
+    Menlo,
+    monospace;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 2px 8px;
+  border-radius: 4px;
+  pointer-events: none;
+}

@@ -1,0 +1,9 @@
+.next/
+.open-next/
+node_modules/
+.wrangler/
+downloaded/
+_cloudflare-export/
+.env
+.env.local
+*.log

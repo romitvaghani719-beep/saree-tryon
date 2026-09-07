@@ -1,0 +1,53 @@
+{
+ "id": "holo-04",
+ "name": "Studio pose 04",
+ "kind": "uvmap",
+ "width": 1792,
+ "height": 2400,
+ "refWidthPx": 960,
+ "refBorder": [
+  64,
+  59
+ ],
+ "shadingRange": [
+  0.25,
+  1.6
+ ],
+ "assets": {
+  "mannequin": "mannequin.webp",
+  "shading": "shading.webp",
+  "panels": "panels.png",
+  "uv": "uv.png"
+ },
+ "uv": {
+  "sareeWidthPx": 1435.8,
+  "pxPerMetre": 1305.3,
+  "palluAt": "max"
+ },
+ "panels": [
+  {
+   "id": "region1",
+   "index": 0,
+   "role": "tail",
+   "uSpan": 1620.24,
+   "vSpan": 640.48,
+   "areaPct": 62.0
+  },
+  {
+   "id": "region2",
+   "index": 1,
+   "role": "pallu",
+   "uSpan": 1597.42,
+   "vSpan": 494.8,
+   "areaPct": 38.0
+  }
+ ],
+ "source": {
+  "plate": "clean-Gemini_Generated_Image_6wct516wct516wct.png",
+  "foldCoherence": 0.953,
+  "drapePctOfFigure": 96.7,
+  "neckCutY": 380,
+  "occludingEdges": 1,
+  "regions": 2
+ }
+}
